@@ -18,6 +18,11 @@ Thumbs.db
 .DS_Store
 .DS_Store?
 **/.index.json
+**/.index.db
+
+# FHIR package cache #
+######################
+fhir-package-cache
 
 # backup files #
 ################
@@ -30,6 +35,29 @@ Thumbs.db
 .vscode/
 .idea/
 .idea/*
+
+# AI assistant tooling — local helpers only, not shared #
+#########################################################
+.claude/
+.cursor/
+.cursorrules
+.cursorindexingignore
+.aider*
+.aiderignore
+.continue/
+.codeium/
+.windsurf/
+.windsurfrules
+.clinerules
+.roo/
+.gptignore
+.github/copilot/
+.github/copilot-instructions.md
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+GEMINI.md
+.mcp.json
 
 # word #
 ########
