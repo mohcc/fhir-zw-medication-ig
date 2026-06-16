@@ -1,0 +1,31 @@
+ZWMedication : Validation Results
+=========================================
+
+err = 6, warn = 0, info = 1
+IG Publisher Version: 2.2.9
+Generated Tue Jun 16 07:38:26 UTC 2026. FHIR version 4.0.1 for zw.fhir.ig.medication#0.1.0 (canonical = http://mohcc.gov.zw/fhir/medication)
+ Build Errors : 5 / 0 / 0
+ /work/fsh-generated/resources/AllergyIntolerance-allergyintolerance1 : 2 / 0 / 1
+ /work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.medication : 0 / 0 / 1
+ /work/fsh-generated/resources/MedicationRequest-medicationrequest1 : 4 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-allergy-intolerance : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-zw-medication-request : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: index.html#/html/body/div/div/div/div/div/p/a at Line 318, column 88: The link 'references.html' for "References" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/p/a at Line 318, column 133: The link 'dependencies.html' for "Dependencies" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/ul/li/a at Line 325, column 8: The link 'business-requirements.html' for "Business Requirements" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/ul/li/a at Line 326, column 8: The link 'data-models-and-exchange.html' for "Data Models and Exchange" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/ul/li/a at Line 327, column 8: The link 'deployment.html' for "Deployment Guidance" cannot be resolved
+== fsh-generated/resources/AllergyIntolerance-allergyintolerance1.json ==
+ERROR: AllergyIntolerance/allergyintolerance1: AllergyIntolerance.patient: Unable to resolve resource with reference 'zw-patient-example'
+ERROR: AllergyIntolerance/allergyintolerance1: AllergyIntolerance.recorder: Unable to resolve resource with reference 'practitioner1'
+== fsh-generated/resources/ImplementationGuide-zw.fhir.ig.medication.json ==
+== fsh-generated/resources/MedicationRequest-medicationrequest1.json ==
+ERROR: MedicationRequest/medicationrequest1: MedicationRequest.subject: Unable to resolve resource with reference 'zw-patient-example'
+ERROR: MedicationRequest/medicationrequest1: MedicationRequest.encounter: Unable to resolve resource with reference 'encounter1'
+ERROR: MedicationRequest/medicationrequest1: MedicationRequest.requester: Unable to resolve resource with reference 'practitioner1'
+ERROR: MedicationRequest/medicationrequest1: MedicationRequest.reasonReference[0]: Unable to resolve resource with reference 'condition1'
+== fsh-generated/resources/StructureDefinition-zw-allergy-intolerance.json ==
+INFORMATION: StructureDefinition/zw-allergy-intolerance: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+== fsh-generated/resources/StructureDefinition-zw-medication-request.json ==

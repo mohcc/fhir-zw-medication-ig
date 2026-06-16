@@ -1,0 +1,19 @@
+{
+  "url" : "http://mohcc.gov.zw/fhir/medication/ImplementationGuide/zw.fhir.ig.medication",
+  "name" : "ZWMedication",
+  "title" : "Zimbabwe Medication IG",
+  "description" : "Zimbabwe Medication FHIR Implementation Guide covering allergies, medication requests and administration",
+  "status" : "draft",
+  "package-id" : "zw.fhir.ig.medication",
+  "ig-ver" : "0.1.0",
+  "date" : "Tue, 16 Jun, 2026 07:36:49 +0000",
+  "dateISO8601" : "2026-06-16T07:36:49+00:00",
+  "errs" : 6,
+  "warnings" : 0,
+  "hints" : 1,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2054184576
+}

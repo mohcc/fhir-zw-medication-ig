@@ -1,0 +1,21 @@
+[{
+  "id" : "zw.fhir.ig.medication",
+  "type" : "ImplementationGuide",
+  "url" : "http://mohcc.gov.zw/fhir/medication/ImplementationGuide/zw.fhir.ig.medication",
+  "version" : "0.1.0",
+  "name" : "ZWMedication"
+},
+{
+  "id" : "zw-allergy-intolerance",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/medication/StructureDefinition/zw-allergy-intolerance",
+  "version" : "0.1.0",
+  "name" : "ZimAllergyIntolerance"
+},
+{
+  "id" : "zw-medication-request",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/medication/StructureDefinition/zw-medication-request",
+  "version" : "0.1.0",
+  "name" : "ZimMedicationRequest"
+}]

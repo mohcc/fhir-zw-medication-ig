@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationRequest xmlns="http://hl7.org/fhir">
+  <id value="medicationrequest1"/>
+  <meta>
+    <profile value="http://mohcc.gov.zw/fhir/medication/StructureDefinition/zw-medication-request"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MedicationRequest medicationrequest1</b></p><a name="medicationrequest1"> </a><a name="hcmedicationrequest1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-medication-request.html">Zimbabwe Medication Request</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>medication</b>: <span title="Codes:">Artemether/Lumefantrine 20/120 mg tablet</span></p><p><b>subject</b>: <code>zw-patient-example</code></p><p><b>encounter</b>: <code>encounter1</code></p><p><b>authoredOn</b>: 2026-05-01</p><p><b>requester</b>: <code>practitioner1</code></p><p><b>reasonReference</b>: <code>condition1</code></p><h3>DosageInstructions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Text</b></td></tr><tr><td style="display: none">*</td><td>1 tablet twice daily for 3 days</td></tr></table></div>
+  </text>
+  <status value="active"/>
+  <intent value="order"/>
+  <medicationCodeableConcept>
+    <text value="Artemether/Lumefantrine 20/120 mg tablet"/>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="zw-patient-example"/>
+  </subject>
+  <encounter>
+    <reference value="encounter1"/>
+  </encounter>
+  <authoredOn value="2026-05-01"/>
+  <requester>
+    <reference value="practitioner1"/>
+  </requester>
+  <reasonReference>
+    <reference value="condition1"/>
+  </reasonReference>
+  <dosageInstruction>
+    <text value="1 tablet twice daily for 3 days"/>
+  </dosageInstruction>
+</MedicationRequest>
