@@ -24,6 +24,6 @@ Description: "A prescription or medication order for a Zimbabwe patient."
 * requester only Reference(ZimPractitioner)
 
 * reasonReference MS
-* reasonReference only Reference(ZimCondition)
+* reasonReference only Reference(Condition)
 
 * dosageInstruction MS
